@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">TradeCar</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">车辆交易信息</string>
+    <string name="title_buy">购买</string>
+    <string name="title_sale">出售</string>
 </resources>
