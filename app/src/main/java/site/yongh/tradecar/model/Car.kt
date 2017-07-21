@@ -1,4 +1,4 @@
-package com.elvis.tradecar.model
+package site.yongh.tradecar.model
 
 import java.util.*
 
@@ -8,12 +8,12 @@ import java.util.*
  */
 class Car {
     var id: Int = 0
-    var name: String = ""
+    var name: String? = null
     var arrears: Double = 0.0        //车辆欠款
-    var company: String = ""          //挂靠公司
-    var address: String = ""           //车辆所属地
-    var carNumber: String = ""          //车牌号
-    var trailerNumber: String = ""         //挂车号
+    var company: String? = null          //挂靠公司
+    var address: String? = null           //车辆所属地
+    var carNumber: String? = null          //车牌号
+    var trailerNumber: String? = null         //挂车号
     var owner: CarUser = CarUser()      //车辆所属人
     var brand: CarBrand = CarBrand()                    // 汽车品牌
     var carBrandSerie: CarBrandSerie = CarBrandSerie()  //汽车系列
@@ -21,6 +21,6 @@ class Car {
     var insuranceStartTime: Date = Date()       // 保险开始时间
     var insuranceEndTime: Date = Date()         // 保险结束时间
     var selfProfit: Double = 0.0                // 中介自身盈利
-    var note: String = ""                       // 备注（交通违章等）
+    var note: String? = null                       // 备注（交通违章等）
     var fixedYears: Double = 0.0               // 车辆使用年限
 }

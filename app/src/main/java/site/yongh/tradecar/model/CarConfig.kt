@@ -1,4 +1,4 @@
-package com.elvis.tradecar.model
+package site.yongh.tradecar.model
 
 /**
  * Created by Elvis on 2017/7/18.

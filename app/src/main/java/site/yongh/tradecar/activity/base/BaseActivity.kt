@@ -1,4 +1,4 @@
-package com.elvis.tradecar.activity.base
+package site.yongh.tradecar.activity.base
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

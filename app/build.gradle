@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 ext.kotlinVersion = '1.1.2-4'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.elvis.tradecar"
+        applicationId "site.yongh.tradecar"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
