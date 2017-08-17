@@ -1,4 +1,4 @@
-package site.yongh.tradecar.model
+package site.yongh.tradecar.model.bean
 
 import java.util.*
 import kotlin.collections.ArrayList

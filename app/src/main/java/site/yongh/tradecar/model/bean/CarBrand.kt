@@ -1,4 +1,4 @@
-package site.yongh.tradecar.model
+package site.yongh.tradecar.model.bean
 
 /**
  * Created by Elvis on 2017/7/18.
@@ -6,5 +6,5 @@ package site.yongh.tradecar.model
  */
 class CarBrand {
     var id: Int = 0
-    var name: String = ""
+    var name: String? = ""
 }

@@ -1,4 +1,4 @@
-package site.yongh.tradecar.view
+package site.yongh.tradecar.view.view
 
 import android.content.Context
 

@@ -1,7 +1,7 @@
-package site.yongh.tradecar.dao
+package site.yongh.tradecar.model.service.dao
 
-import site.yongh.tradecar.model.Car
-import site.yongh.tradecar.model.CarUser
+import site.yongh.tradecar.model.bean.Car
+import site.yongh.tradecar.model.bean.CarUser
 
 /**
  * Created by Elvis on 2017/7/21.

@@ -1,4 +1,4 @@
-package site.yongh.tradecar.activity
+package site.yongh.tradecar.view.activity
 
 import android.content.Context
 import android.os.Bundle
@@ -6,9 +6,9 @@ import android.support.design.widget.BottomNavigationView
 import android.widget.FrameLayout
 import kotlinx.android.synthetic.main.activity_main.*
 import site.yongh.tradecar.R
-import site.yongh.tradecar.activity.base.BaseActivity
+import site.yongh.tradecar.view.activity.base.BaseActivity
 import site.yongh.tradecar.presenter.activity.CarUserPresenter
-import site.yongh.tradecar.view.activity.IMainActivityView
+import site.yongh.tradecar.view.view.activity.IMainActivityView
 
 class MainActivity : BaseActivity(), IMainActivityView {
     val mCarUserPresenter: CarUserPresenter = CarUserPresenter().attach(this) as CarUserPresenter

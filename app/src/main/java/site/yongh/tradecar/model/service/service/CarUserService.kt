@@ -1,7 +1,7 @@
-package site.yongh.tradecar.service
+package site.yongh.tradecar.model.service.service
 
 import android.util.Log
-import site.yongh.tradecar.model.CarUser
+import site.yongh.tradecar.model.bean.CarUser
 
 /**
  * Created by Elvis on 2017/7/21.

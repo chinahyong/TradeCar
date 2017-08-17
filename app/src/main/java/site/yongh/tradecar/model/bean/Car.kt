@@ -1,4 +1,4 @@
-package site.yongh.tradecar.model
+package site.yongh.tradecar.model.bean
 
 import java.util.*
 
@@ -7,7 +7,7 @@ import java.util.*
  * description:车辆信息
  */
 class Car {
-    var id: Int = 0
+    var id: Int? = 0
     var name: String? = null
     var arrears: Double = 0.0        //车辆欠款
     var company: String? = null          //挂靠公司
